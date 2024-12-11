@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background-color: rgb(222, 222, 143);
+  
+  padding-top: 10px;
+  padding-bottom: -13px;
+}
+.recipe{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+ 
+}
+input{
+  
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  overflow-wrap: break-word;
+  font-family: Arial, sans-serif;
+  
+}
+.items{
+  margin-left: 20px;
+ 
+}
+.box{
+ display: flex;
+}
+.steps{
+  margin-left: 230px;
+ 
+ 
+}
+.step {
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+  vertical-align: top; /* Ensures text starts at the top */
+  font-size: 16px;
+  overflow-wrap: break-word;
+  font-family: Arial, sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px;
+}
+.time{
+  margin-top: 20px;
+  width: 30px;
+}
+.datashow{
+  margin-top: -170px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   width: 50%;
+   margin-left: 10px;
+}
+.dataview{
+  margin-top: 14px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dataval{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 200px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 0px 15px 0px 10px;
+
+}
+.submit {
+  position: absolute;
+  bottom: 50px; /* Adjust distance from the bottom */
+  right: 50px;  /* Adjust distance from the right */
+  margin-left: 30px;
+  width: 100px;
+  height: 40px;
+  font-family: Arial, sans-serif;
+  background-color: red;
+  cursor: pointer;
+  
+  color: aliceblue;
+  font-size: 14px;
+
+}
+.load{   left: 1000px;
+  background-color: brown;
+  
+}
+.save{
+  left:1200px;
+  background-color: green;
+}
